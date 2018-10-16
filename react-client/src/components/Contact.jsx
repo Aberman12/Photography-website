@@ -83,7 +83,7 @@ class Contact extends React.Component {
           <button
             type="submit"
             onClick={() => this.resetForm()}
-            className="btn"
+            className="btn btn-default"
           >
             Send
           </button>
