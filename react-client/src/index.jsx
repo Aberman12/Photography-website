@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import $ from "jquery";
 import Nav from "./components/Nav.jsx";
 import Home from "./components/Home.jsx";
+import Footer from "./components/Footer.jsx";
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Africa from "./components/Photography/Africa.jsx";
@@ -35,6 +36,7 @@ class App extends React.Component {
           <Route exact path="/Middle-East" component={MiddleEast} />
           <Route exact path="/North-America" component={NorthAmerica} />
         </Switch>
+        <Footer />
       </div>
     );
   }
