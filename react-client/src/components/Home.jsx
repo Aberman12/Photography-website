@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = props => (
   <div>
@@ -22,9 +23,13 @@ const Home = props => (
               <h1>Africa</h1>
               <p>Kenya/Uganda/Rwanda</p>
               <p>
-                <a href="#" className="btn btn-lg btn-primary" role="button">
+                <Link
+                  to="/Africa"
+                  className="btn btn-lg btn-primary"
+                  role="button"
+                >
                   View Collection
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -41,9 +46,13 @@ const Home = props => (
               <h1>Central America</h1>
               <p>Mexica/Belize/Guatemala</p>
               <p>
-                <a href="#" className="btn btn-lg btn-primary" role="button">
+                <Link
+                  to="/Central-America"
+                  className="btn btn-lg btn-primary"
+                  role="button"
+                >
                   View Collection
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -60,9 +69,13 @@ const Home = props => (
               <h1>Europe</h1>
               <p>Western/Eastern Europe</p>
               <p>
-                <a href="#" className="btn btn-lg btn-primary" role="button">
+                <Link
+                  to="/Europe"
+                  className="btn btn-lg btn-primary"
+                  role="button"
+                >
                   View Collection
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -79,9 +92,13 @@ const Home = props => (
               <h1>Middle-East</h1>
               <p>Israel</p>
               <p>
-                <a href="#" className="btn btn-lg btn-primary" role="button">
+                <Link
+                  to="/Middle-East"
+                  className="btn btn-lg btn-primary"
+                  role="button"
+                >
                   View Collection
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -98,9 +115,13 @@ const Home = props => (
               <h1>North-America</h1>
               <p>CA/LA/NY/UT</p>
               <p>
-                <a href="#" className="btn btn-lg btn-primary" role="button">
+                <Link
+                  to="/North-America"
+                  className="btn btn-lg btn-primary"
+                  role="button"
+                >
                   View Collection
-                </a>
+                </Link>
               </p>
             </div>
           </div>
