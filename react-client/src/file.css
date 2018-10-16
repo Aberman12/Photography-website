@@ -1,0 +1,86 @@
+body {
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Courgette", cursive;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+.carousel .item {
+  height: 500px;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  height: 500px;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.marketing {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feature-divider {
+  margin: 100px 20px;
+}
+
+.feature {
+  margin: 50px;
+  padding: 50px;
+}
+
+.feature p {
+  font-size: 22px;
+  color: dimgrey;
+}
+
+.about {
+  margin-top: 200px;
+}
+
+.me {
+  width: 350px;
+  height: 350px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.form-group {
+  margin: 0 auto;
+  float: none;
+  width: 500px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 550px) {
+  .form-group {
+    width: 100%;
+  }
+}
