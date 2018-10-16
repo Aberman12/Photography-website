@@ -2,7 +2,7 @@ import React from "react";
 
 const NorthAmerica = props => (
   <div className="row feature about">
-    <h1 className="NorthAmerica-title">North-America Collection</h1>
+    <h1 className="title">North-America Collection</h1>
     <div className="row">
       <div className="col-lg-4 col-md-6 col-sm-6">
         <div className="thumbnail">
